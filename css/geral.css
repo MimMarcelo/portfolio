@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    border-style: none;
+    border-width: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #999;
+}
 h1{
     position: relative; /*Garante que o span baseie suas coordenadas por este h1*/
     height: 60px; /*Altura da imagem que o substituirá*/
@@ -12,4 +22,36 @@ h1 > span{
     height: 100%;
     background-image: url('../img/h1.png');
     background-repeat: no-repeat;
+}
+figure{
+    display: inline-block;
+    background-color: #EEF;
+    border-radius: 4px;
+    text-align: center;
+    height: 300px;
+}
+figure:hover{
+    background-color: #EFF;
+}
+figure > a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+figure a > img{
+    width: 200px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+figure:hover a > img{
+    background-color: #EFF;
+    border-radius: 5px;
+}
+figure a > figcaption{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
