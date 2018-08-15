@@ -12,11 +12,17 @@ and open the template in the editor.
         <meta name="description" content="Portifólio pessoal do prof. Marcelo Júnior, que 
               atua nas áreas de desenvolvimento Web com PHP/HTML/CSS/Javascript e apps Android">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Marcelo Júnior</title>
+        
+        <link rel="stylesheet" href="css/geral.css">
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <header>
+            <h1>
+                <span></span>
+                Marcelo Júnior
+            </h1>
+        </header>        
     </body>
 </html>

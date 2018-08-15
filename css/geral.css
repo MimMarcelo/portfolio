@@ -1,0 +1,15 @@
+h1{
+    position: relative; /*Garante que o span baseie suas coordenadas por este h1*/
+    height: 60px; /*Altura da imagem que o substituirá*/
+    overflow: hidden; /*Impede que a altura default do h1 se sobressaia*/
+    text-indent: -9999px; /*Faz um recuo no texto sufuciente para que não apareça por traz da imagem*/
+}
+h1 > span{
+    position: absolute; /*Impede que o span influencie no fluxo do layout*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/h1.png');
+    background-repeat: no-repeat;
+}
