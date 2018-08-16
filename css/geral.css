@@ -4,6 +4,7 @@
     border-width: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 body{
     background-color: #999;
@@ -17,6 +18,7 @@ h1{
     height: 60px; /*Altura da imagem que o substituirá*/
     overflow: hidden; /*Impede que a altura default do h1 se sobressaia*/
     text-indent: -9999px; /*Faz um recuo no texto sufuciente para que não apareça por traz da imagem*/
+    font-size: 3em; /*Define o tamanho da fonte como 3 vezes o tamanho normal*/
 }
 h1 > span{
     position: absolute; /*Impede que o span influencie no fluxo do layout*/
@@ -27,6 +29,19 @@ h1 > span{
     background-image: url(../img/h1.png);
     background-repeat: no-repeat;
 }
+h2{
+    font-size: 2em;/*Define o tamanho da fonte como 2 vezes o tamanho normal*/
+    text-align: center;
+}
+h3{
+    font-size: 1.6em;/*Define o tamanho da fonte como 1.6 vezes o tamanho normal*/
+}
+article{
+    background-color: rgba(250, 250, 250, .6);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
 figure{
     display: inline-block;
     background-color: #EEF;
@@ -34,8 +49,17 @@ figure{
     text-align: center;
     height: 300px;
 }
+figure.autor{
+    float: left;
+    height: auto;
+    width: 30%;
+    margin: 30px;
+}
 figure:hover{
     background-color: #EFF;
+}
+figure.autor:hover{
+    background-color: transparent;
 }
 figure > a{
     display: inline-block;
@@ -43,7 +67,7 @@ figure > a{
     height: 100%;
     text-decoration: none;
 }
-figure a > img{
+figure > a > img{
     width: 200px;
     height: 200px;
     background-color: #FFF;
@@ -51,13 +75,23 @@ figure a > img{
     border-style: solid;
     border-radius: 50%;
 }
-figure:hover a > img{
+figure:hover > a > img{
     background-color: #EFF;
     border-radius: 5px;
 }
-figure a > figcaption{
+figure > a > figcaption{
     padding-bottom: 10px;
     padding-top: 10px;
+}
+figure.autor > img{
+    display: block;
+    
+    width: 96%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 #imagemGrande{
     background-image: url(../img/imagemGrande.png);
