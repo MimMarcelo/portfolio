@@ -16,6 +16,7 @@ and open the template in the editor.
         <title>Marcelo Júnior</title>
 
         <link rel="stylesheet" href="css/geral.css">
+        <link rel="icon" href="img/h1.png">
     </head>
     <body>
         <header>
