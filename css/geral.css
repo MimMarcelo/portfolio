@@ -8,6 +8,10 @@
 body{
     background-color: #999;
 }
+body > #geral{
+    width: 70%; /*Delimita espaço para o conteúdo, para a #imagemGrande aparecer*/
+    margin-left: 5%;
+}
 h1{
     position: relative; /*Garante que o span baseie suas coordenadas por este h1*/
     height: 60px; /*Altura da imagem que o substituirá*/
@@ -20,7 +24,7 @@ h1 > span{
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/h1.png');
+    background-image: url(../img/h1.png);
     background-repeat: no-repeat;
 }
 figure{
@@ -54,4 +58,13 @@ figure:hover a > img{
 figure a > figcaption{
     padding-bottom: 10px;
     padding-top: 10px;
+}
+#imagemGrande{
+    background-image: url(../img/imagemGrande.png);
+    position: fixed; /*Mesmo que a página 'role', a imagem continua em seu lugar*/
+    bottom: 0;
+    right: 5%;
+    width: 392px;
+    height: 600px;
+    z-index: -1; /*Para que essa imagem fique por traz do conteúdo da página*/
 }

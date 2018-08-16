@@ -25,56 +25,57 @@ and open the template in the editor.
                 Marcelo Júnior
             </h1>
         </header>
-        <section>
+        <div id="imagemGrande"></div>
+        <section id="geral">
             <h2>trabalhos</h2>
-                <figure>
-            <a href="img/trabalho.png">
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 001">
                     <figcaption>Trabalho 001</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 002">
                     <figcaption>Trabalho 002</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 003">
                     <figcaption>Trabalho 003</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 004">
                     <figcaption>Trabalho 004</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 005">
                     <figcaption>Trabalho 005</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 006">
                     <figcaption>Trabalho 006</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 007">
                     <figcaption>Trabalho 007</figcaption>
-            </a>
-                </figure>
-                <figure>
-            <a href="img/trabalho.png">
+                </a>
+            </figure>
+            <figure>
+                <a href="img/trabalho.png">
                     <img src="img/trabalho.png" alt="Trabalho 008">
                     <figcaption>Trabalho 008</figcaption>
-            </a>
-                </figure>
-        </section>        
+                </a>
+            </figure>
+        </section>
     </body>
 </html>
