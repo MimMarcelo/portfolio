@@ -5,5 +5,12 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>portfolio</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>AINA</word>
+            <word>desenhar</word>
+            <word>filhos</word>
+            <word>média</word>
+            <word>programaçãodo</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
